@@ -1,0 +1,17 @@
+2020/2/20-a
+·First upload on GitHub.
+·首次上传。
+=============================
+2020/2/20-b
+BrokenBottle:
+·Now the honey bottle and dragon breath will break when they touch the ground, too.
+·Different items will produce different pitch sounds when they are broken.
+·蜂蜜瓶和龙息瓶现在也会被打碎。
+·不同的物品碎裂时会发出不同音调的声音。
+
+VanillaSkills:
+·Fix the bug:
+ -Experience book of Mining, Battle and Magic skills was never appeared in the treasure chests.
+·修复BUG：
+ -战斗、挖矿和魔法技能的经验书从未在宝箱中出现过。
+ ============================
