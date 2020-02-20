@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": "获取蜂蜜",
+    "description": "仅命令",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "safely_harvest_honey": {
+      "trigger": "minecraft:safely_harvest_honey",
+      "conditions": {
+        "block": {
+          "tag": "minecraft:beehives"
+        },
+        "item": {
+          "item": "minecraft:glass_bottle"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "safely_harvest_honey"
+    ]
+  ],
+  "rewards": {
+    "function": "vanillaskills:beekeeping_xp_reward"
+  }
+}
