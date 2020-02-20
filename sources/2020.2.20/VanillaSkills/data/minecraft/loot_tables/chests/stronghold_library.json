@@ -40,10 +40,12 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 20,
           "name": "minecraft:map"
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:compass"
         },
         {
@@ -60,6 +62,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
