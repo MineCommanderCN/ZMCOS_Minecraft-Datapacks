@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "III",
+    "IoI"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "o": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:bell"
+  }
+}

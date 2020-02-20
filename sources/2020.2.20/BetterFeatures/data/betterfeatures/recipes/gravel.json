@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#",
+    "#X"
+  ],
+  "key": {
+    "X": {
+      "tag": "minecraft:sand"
+    },
+    "#": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "minecraft:gravel",
+    "count": 4
+  }
+}
