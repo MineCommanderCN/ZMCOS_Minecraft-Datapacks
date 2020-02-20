@@ -65,6 +65,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -279,6 +280,7 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_nbt",
