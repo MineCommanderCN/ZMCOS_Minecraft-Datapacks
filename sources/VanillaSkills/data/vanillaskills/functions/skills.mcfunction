@@ -3,6 +3,7 @@ tellraw @a[scores={vsSkillLock=1..,vsAtAct=-1}] {"text":"技能锁定已开启�
 tellraw @a[scores={vsSkillLock=1..,vsAtAct=1}] {"text":"技能锁定已关闭！手持对应物品按下Shift即可触发主动能力","color":"green"}
 scoreboard players set #ConstDummy vsDummy -1
 scoreboard players operation @a[scores={vsSkillLock=1..}] vsAtAct *= #ConstDummy vsDummy
+scoreboard players set @a[scores={vsSkillLock=1..}] vsSkillLock 0
 
 scoreboard players add #timer vsTimer 1
 execute as @a[scores={vsBeekpLvl=20..}] at @s if score #timer vsTimer matches 20.. run execute as @e[type=bee,distance=..4,limit=1] run data merge entity @s {Anger:0}
