@@ -13,3 +13,4 @@ scoreboard players set @s vsBeekpXp 0
 scoreboard players set @s vsBattleCl 0
 scoreboard players set @s vsMiningCl 0
 scoreboard players set @s vsMagicCl 0
+scoreboard players set @s vsAtAct 0
