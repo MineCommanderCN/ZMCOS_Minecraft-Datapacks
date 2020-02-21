@@ -20,7 +20,11 @@ VanillaSkills:
 ·Added a trigger Skill Lock.
   -Use the Skill Lock trigger to toggle the lock state, by the command"/trigger vsSkillLock".
   -When the lock is on, the Activable-Abilities will not active.
+·Cooling notice of Activable-Abilities will not visible in 50 gameticks after activation.
+·Edit the description of the advancement "First meet".
 ·添加技能锁触发器。
   -使用命令"/trigger vsSkillLock"来开关技能锁。
   -当锁开启时，主动技将不会被触发。
+ ·主动能力的冷却提醒会在激活能力后的50刻内隐藏。
+ ·修改了进度“初次见面！”的描述。
 ===============================
