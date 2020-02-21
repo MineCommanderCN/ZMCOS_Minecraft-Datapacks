@@ -14,4 +14,13 @@ VanillaSkills:
  -Experience book of Mining, Battle and Magic skills was never appeared in the treasure chests.
 ·修复BUG：
  -战斗、挖矿和魔法技能的经验书从未在宝箱中出现过。
- ============================
+ =============================
+2020/2/21
+VanillaSkills:
+·Added a trigger Skill Lock.
+  -Use the Skill Lock trigger to toggle the lock state, by the command"/trigger vsSkillLock".
+  -When the lock is on, the Activable-Abilities will not active.
+·添加技能锁触发器。
+  -使用命令"/trigger vsSkillLock"来开关技能锁。
+  -当锁开启时，主动技将不会被触发。
+==============================

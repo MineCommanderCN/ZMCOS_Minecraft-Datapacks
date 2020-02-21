@@ -1,2 +1,0 @@
-execute as @e[type=zombie_villager] run data merge entity @s {Fire:-1s}
-execute as @e[type=villager] if entity @a[nbt={SelectedItem:{id:"minecraft:emerald"}},distance=..4] facing entity @p eyes run tp @s ~ ~ ~ ~ ~

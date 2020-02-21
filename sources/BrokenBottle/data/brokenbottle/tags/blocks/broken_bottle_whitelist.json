@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:air",
+        "minecraft:torch",
+        "minecraft:tall_grass",
+        "minecraft:slime_block",
+        "minecraft:honey_block",
+        "minecraft:sponge",
+        "minecraft:wet_sponge",
+        "minecraft:grass",
+        "minecraft:water",
+        "minecraft:lava",
+        "#minecraft:wool",
+        "#minecraft:beds",
+        "#minecraft:flowers",
+        "#minecraft:crops",
+        "#minecraft:buttons"
+    ]
+}
