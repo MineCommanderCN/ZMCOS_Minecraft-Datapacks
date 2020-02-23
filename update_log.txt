@@ -28,3 +28,12 @@ VanillaSkills:
  ·主动能力的冷却提醒会在激活能力后的50刻内隐藏。
  ·修改了进度“初次见面！”的描述。
 ===============================
+2020/2/23
+VanillaSkills:
+·Fix bug:
+  -Nether quartz ore sometimes does not drop Nether quartz when mining.
+  -Extra loots of Mining skill still drop when mined ore with Silk touch tools.
+ ·修复BUG：
+  -下界石英矿石有时不会掉落下界石英。
+  -当用精准采集工具挖掘矿石时，挖矿技能带来的额外掉落物仍会掉落。
+===============================
