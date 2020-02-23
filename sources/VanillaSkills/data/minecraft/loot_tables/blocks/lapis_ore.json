@@ -65,7 +65,8 @@
                 "vsMiningLvl":{
                   "min": 20,
                   "max": 2147483647
-                }
+                },
+                "vsSilk":0
               }
             }
           ],
@@ -95,7 +96,8 @@
                 "vsMiningLvl":{
                   "min": 50,
                   "max": 2147483647
-                }
+                },
+                "vsSilk":0
               }
             }
           ],
@@ -125,7 +127,8 @@
                 "vsMiningLvl":{
                   "min": 75,
                   "max": 2147483647
-                }
+                },
+                "vsSilk":0
               }
             }
           ],
@@ -155,7 +158,8 @@
                 "vsMiningLvl":{
                   "min": 100,
                   "max": 2147483647
-                }
+                },
+                "vsSilk":0
               }
             }
           ],

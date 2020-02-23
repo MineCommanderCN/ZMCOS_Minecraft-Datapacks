@@ -1,0 +1,2 @@
+scoreboard players set @a[nbt={SelectedItem:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] vsSilk 1
+scoreboard players set @a[nbt=!{SelectedItem:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] vsSilk 0

@@ -36,6 +36,7 @@ scoreboard objectives add vsFished minecraft.custom:minecraft.fish_caught
 
 scoreboard objectives add vsEnchItem minecraft.custom:minecraft.enchant_item
 
+scoreboard objectives add vsSilk dummy
 scoreboard objectives add vsTimer dummy
 scoreboard objectives add vsSkillLock trigger
 scoreboard objectives add vsAtAct dummy

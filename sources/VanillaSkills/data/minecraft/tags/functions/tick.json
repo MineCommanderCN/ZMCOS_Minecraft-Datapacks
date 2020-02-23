@@ -4,6 +4,7 @@
         "vanillaskills:skill_xp_reward",
         "vanillaskills:level_up",
         "vanillaskills:skills",
-        "vanillaskills:hold"
+        "vanillaskills:hold",
+        "vanillaskills:hold_silk"
     ]
 }
