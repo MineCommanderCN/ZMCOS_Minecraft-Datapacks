@@ -31,7 +31,7 @@ VanillaSkills:
 2020/2/23
 VanillaSkills:
 ·Fix bug:
-  -Nether quartz ore sometimes does not drop Nether quartz when mining.
+  -Nether quartz ore sometimes does not drop Nether quartz when mined.
   -Extra loots of Mining skill still drop when mined ore with Silk touch tools.
  ·修复BUG：
   -下界石英矿石有时不会掉落下界石英。
