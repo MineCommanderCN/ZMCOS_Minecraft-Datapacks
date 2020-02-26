@@ -2,5 +2,22 @@
     "pack": {
         "pack_format": 5,
         "description":"VanillaSkills翻译资源包\n与原版模组 VanillaSkills 1.0 配套使用"
-    }
+    },
+    "language": {
+		"zh_cn":{
+			"name": "简体中文",
+			"region": "中国大陆",
+			"bidirectional": false
+		},
+		"en_us":{
+			"name": "English",
+			"region": "United States",
+			"bidirectional": false
+        },
+        "zh_meme": {
+            "name": "§e梗体中文§r",
+            "region": "§c天朝§r",
+            "bidirectional": "false"
+        }
+	}
 }
