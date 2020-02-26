@@ -1,0 +1,18 @@
+{
+    "vanillaskills.notifi.skilllock_on":"技能锁定已开启！主动能力将不再会自动触发",
+    "vanillaskills.notifi.skilllock_off":"技能锁定已关闭！手持对应物品按下Shift即可触发主动能力",
+    "vanillaskills.skill.mining":"挖矿",
+    "vanillaskills.skill.battle":"战斗",
+    "vanillaskills.skill.magic":"魔法",
+    "vanillaskills.skill.herbal":"草药学",
+    "vanillaskills.skill.fishing":"钓鱼",
+    "vanillaskills.skill.beekeepping":"养蜂",
+    "vanillaskills.notifi.act_enable":"发动技能 ",
+    "vanillaskills.notifi.act_cooling":" 技能正在冷却中！剩余",
+    "vanillaskills.notifi.skill_locked":"技能锁定处于开启状态，主动能力无法触发。使用命令解锁：",
+    "vanillaskills.notifi.low_skill_level":" 技能等级过低！",
+    "vanillaskills.notifi.skill_ready":" 技能可以再次使用了！",
+    "vanillaskills.act.mining":"超级碎石机",
+    "vanillaskills.act.battle":"利刃突刺",
+    "vanillaskills.act.magic":"群体治愈"
+}
