@@ -16,7 +16,7 @@ scoreboard players remove @a[scores={vsBattleCl=1..}] vsBattleCl 1
 scoreboard players remove @a[scores={vsMiningCl=1..}] vsMiningCl 1
 scoreboard players remove @a[scores={vsMagicCl=1..}] vsMagicCl 1
 
-tellraw @a[scores={vsSneak=1..,vsBattleCl=0,vsBattleLvl=10..,vsAtAct=-1},tag=vsHoldSwd] [{"translate":"vanillaskills.notifi.act_enable","color":"green"},{"translate":"vanillaskills.act.battle","color":"green"},{"text":"!",color:"green"}]
+tellraw @a[scores={vsSneak=1..,vsBattleCl=0,vsBattleLvl=10..,vsAtAct=-1},tag=vsHoldSwd] [{"translate":"vanillaskills.notifi.act_enable","color":"green"},{"translate":"vanillaskills.act.battle","color":"green"},{"text":"!","color":"green"}]
 execute as @a[scores={vsSneak=1..,vsBattleCl=0,vsBattleLvl=10..,vsAtAct=-1},tag=vsHoldSwd] at @s run playsound minecraft:entity.shulker.hurt master @a ~ ~ ~
 effect give @a[scores={vsSneak=1..,vsBattleCl=0,vsBattleLvl=10..,vsAtAct=-1},tag=vsHoldSwd] strength 6 2
 effect give @a[scores={vsSneak=1..,vsBattleCl=0,vsBattleLvl=20..,vsAtAct=-1},tag=vsHoldSwd] strength 8 2
@@ -27,9 +27,9 @@ scoreboard players set @a[scores={vsSneak=1..,vsBattleCl=0,vsBattleLvl=10..,vsAt
 title @a[scores={vsSneak=1..,vsBattleCl=1..3550,vsBattleLvl=10..,vsAtAct=-1},tag=vsHoldSwd] actionbar [{"translate":"vanillaskills.act.battle","color":"red"},{"translate":"vanillaskills.notifi.act_cooling","color":"red"},{"score":{"name":"*","objective":"vsBattleCl"},"color":"red"},{"text":"gt","color":"red"}]
 title @a[scores={vsAtAct=1,vsSneak=1..},tag=vsHoldSwd] actionbar [{"translate":"vanillaskills.notifi.skill_locked","color":"gold"},{"text":"/trigger vsSkillLock","color":"yellow"}]
 title @a[scores={vsSneak=1..,vsBattleLvl=..9,vsAtAct=-1},tag=vsHoldSwd] actionbar [{"translate":"vanillaskills.skill.battle","color":"red"},{"translate":"vanillaskills.notifi.low_skill_level","color":"red"},{"score":{"name":"*","objective":"vsBattleLvl"},"color":"red"},{"text":"/10","color":"red"}]
-tellraw @a[scores={vsBattleCl=1}] [{"translate":"vanillaskills.act.battle","color":"green"},{"translate":"vanillaskills.notifi.skill_ready","color":"green"},{"text":"!",color:"green"}]
+tellraw @a[scores={vsBattleCl=1}] [{"translate":"vanillaskills.act.battle","color":"green"},{"translate":"vanillaskills.notifi.skill_ready","color":"green"},{"text":"!","color":"green"}]
 
-tellraw @a[scores={vsSneak=1..,vsMiningCl=0,vsMiningLvl=10..,vsAtAct=-1},tag=vsHoldPic] [{"translate":"vanillaskills.notifi.act_enable","color":"green"},{"translate":"vanillaskills.act.mining","color":"green"},{"text":"!",color:"green"}]
+tellraw @a[scores={vsSneak=1..,vsMiningCl=0,vsMiningLvl=10..,vsAtAct=-1},tag=vsHoldPic] [{"translate":"vanillaskills.notifi.act_enable","color":"green"},{"translate":"vanillaskills.act.mining","color":"green"},{"text":"!","color":"green"}]
 execute as @a[scores={vsSneak=1..,vsMiningCl=0,vsMiningLvl=10..,vsAtAct=-1},tag=vsHoldPic] at @s run playsound minecraft:entity.shulker.hurt master @a ~ ~ ~
 effect give @a[scores={vsSneak=1..,vsMiningCl=0,vsMiningLvl=10..,vsAtAct=-1},tag=vsHoldPic] haste 6 2
 effect give @a[scores={vsSneak=1..,vsMiningCl=0,vsMiningLvl=20..,vsAtAct=-1},tag=vsHoldPic] haste 8 2
@@ -40,9 +40,9 @@ scoreboard players set @a[scores={vsSneak=1..,vsMiningCl=0,vsMiningLvl=10..,vsAt
 title @a[scores={vsSneak=1..,vsMiningCl=1..3550,vsMiningLvl=10..,vsAtAct=-1},tag=vsHoldPic] actionbar [{"translate":"vanillaskills.act.mining","color":"red"},{"translate":"vanillaskills.notifi.act_cooling","color":"red"},{"score":{"name":"*","objective":"vsMiningCl"},"color":"red"},{"text":"gt","color":"red"}]
 title @a[scores={vsAtAct=1,vsSneak=1..},tag=vsHoldPic] actionbar [{"translate":"vanillaskills.notifi.skill_locked","color":"gold"},{"text":"/trigger vsSkillLock","color":"yellow"}]
 title @a[scores={vsSneak=1..,vsMiningLvl=..9,vsAtAct=-1},tag=vsHoldPic] actionbar [{"translate":"vanillaskills.skill.mining","color":"red"},{"translate":"vanillaskills.notifi.low_skill_level","color":"red"},{"score":{"name":"*","objective":"vsBattleLvl"},"color":"red"},{"text":"/10","color":"red"}]
-tellraw @a[scores={vsMiningCl=1}] [{"translate":"vanillaskills.act.mining","color":"green"},{"translate":"vanillaskills.notifi.skill_ready","color":"green"},{"text":"!",color:"green"}]
+tellraw @a[scores={vsMiningCl=1}] [{"translate":"vanillaskills.act.mining","color":"green"},{"translate":"vanillaskills.notifi.skill_ready","color":"green"},{"text":"!","color":"green"}]
 
-tellraw @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] [{"translate":"vanillaskills.notifi.act_enable","color":"green"},{"translate":"vanillaskills.act.magic","color":"green"},{"text":"!",color:"green"}]
+tellraw @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] [{"translate":"vanillaskills.notifi.act_enable","color":"green"},{"translate":"vanillaskills.act.magic","color":"green"},{"text":"!","color":"green"}]
 execute as @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] at @s run playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~
 execute as @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] at @s run particle end_rod ~ ~0.1 ~ 1.5 0 1.5 0 20
 execute as @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=20..,vsAtAct=-1},tag=vsHoldBlr] at @s run particle end_rod ~ ~0.1 ~ 2.5 0 2.5 0 20
@@ -58,6 +58,6 @@ scoreboard players set @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=10..,vsAtAc
 title @a[scores={vsSneak=1..,vsMagicCl=1..1150,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] actionbar [{"translate":"vanillaskills.act.magic","color":"red"},{"translate":"vanillaskills.notifi.act_cooling","color":"red"},{"score":{"name":"*","objective":"vsMiningCl"},"color":"red"},{"text":"gt","color":"red"}]
 title @a[scores={vsAtAct=1,vsSneak=1..},tag=vsHoldBlr] actionbar [{"translate":"vanillaskills.notifi.skill_locked","color":"gold"},{"text":"/trigger vsSkillLock","color":"yellow"}]
 title @a[scores={vsSneak=1..,vsMagicLvl=..9,vsAtAct=-1},tag=vsHoldBlr] actionbar [{"translate":"vanillaskills.skill.magic","color":"red"},{"translate":"vanillaskills.notifi.low_skill_level","color":"red"},{"score":{"name":"*","objective":"vsBattleLvl"},"color":"red"},{"text":"/10","color":"red"}]
-tellraw @a[scores={vsMagicCl=1}] [{"translate":"vanillaskills.act.magic","color":"green"},{"translate":"vanillaskills.notifi.skill_ready","color":"green"},{"text":"!",color:"green"}]
+tellraw @a[scores={vsMagicCl=1}] [{"translate":"vanillaskills.act.magic","color":"green"},{"translate":"vanillaskills.notifi.skill_ready","color":"green"},{"text":"!","color":"green"}]
 
 scoreboard players set @a[scores={vsSneak=1..}] vsSneak 0
