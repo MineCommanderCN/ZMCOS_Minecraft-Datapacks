@@ -55,7 +55,7 @@ execute as @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=50..,vsAtAct=-1},tag=vs
 execute as @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=75..,vsAtAct=-1},tag=vsHoldBlr] at @s run effect give @a[distance=..10] instant_health 1
 execute as @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=100..,vsAtAct=-1},tag=vsHoldBlr] at @s run effect give @a[distance=..12] instant_health 1
 scoreboard players set @a[scores={vsSneak=1..,vsMagicCl=0,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] vsMagicCl 1200
-title @a[scores={vsSneak=1..,vsMagicCl=1..1150,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] actionbar [{"translate":"vanillaskills.act.magic","color":"red"},{"translate":"vanillaskills.notifi.act_cooling","color":"red"},{"score":{"name":"*","objective":"vsMiningCl"},"color":"red"},{"text":"gt","color":"red"}]
+title @a[scores={vsSneak=1..,vsMagicCl=1..1150,vsMagicLvl=10..,vsAtAct=-1},tag=vsHoldBlr] actionbar [{"translate":"vanillaskills.act.magic","color":"red"},{"translate":"vanillaskills.notifi.act_cooling","color":"red"},{"score":{"name":"*","objective":"vsMagicCl"},"color":"red"},{"text":"gt","color":"red"}]
 title @a[scores={vsAtAct=1,vsSneak=1..},tag=vsHoldBlr] actionbar [{"translate":"vanillaskills.notifi.skill_locked","color":"gold"},{"text":"/trigger vsSkillLock","color":"yellow"}]
 title @a[scores={vsSneak=1..,vsMagicLvl=..9,vsAtAct=-1},tag=vsHoldBlr] actionbar [{"translate":"vanillaskills.skill.magic","color":"red"},{"translate":"vanillaskills.notifi.low_skill_level","color":"red"},{"score":{"name":"*","objective":"vsBattleLvl"},"color":"red"},{"text":"/10","color":"red"}]
 tellraw @a[scores={vsMagicCl=1}] [{"translate":"vanillaskills.act.magic","color":"green"},{"translate":"vanillaskills.notifi.skill_ready","color":"green"},{"text":"!","color":"green"}]
