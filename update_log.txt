@@ -37,3 +37,9 @@ VanillaSkills:
   -下界石英矿石有时不会掉落下界石英。
   -当用精准采集工具挖掘矿石时，挖矿技能带来的额外掉落物仍会掉落。
 ===============================
+2020/2/27
+VanillaSkills:
+·Add translate resource pack to support Multilingual.
+  -Support Simplified Chinese, English and Meme-fied Chinese.
+·添加翻译资源包以支持多语言。
+  -目前支持简体中文、英文和梗体中文。
