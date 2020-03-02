@@ -1,3 +1,4 @@
+scoreboard players enable @a shShowAtAct
 scoreboard players add @a shTmr 1
 scoreboard players add #shVP shTtm 1
 scoreboard players set @a[scores={shHlPrt=500..}] shHlPrt 500

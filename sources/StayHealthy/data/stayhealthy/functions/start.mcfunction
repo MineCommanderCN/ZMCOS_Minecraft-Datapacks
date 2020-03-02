@@ -23,4 +23,4 @@ scoreboard objectives add shDeath deathCount
 scoreboard objectives add shTmr dummy
 scoreboard objectives add shTtm dummy
 scoreboard objectives add shHeal health
-scoreboard objectives add shConfig dummy
+scoreboard objectives add shShowAtAct trigger
