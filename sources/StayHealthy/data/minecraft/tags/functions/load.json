@@ -1,7 +1,6 @@
 {
 	"replace":false,
 	"values":[
-	  "stayhealthy:start",
-	  "stayhealthy:config"
+	  "stayhealthy:start"
 	]
 }
