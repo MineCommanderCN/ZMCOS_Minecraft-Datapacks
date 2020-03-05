@@ -3,7 +3,7 @@ execute as @a[nbt={Inventory:[{tag:{ExpBook:"Herbal"}}]}] at @s run playsound en
 scoreboard players add @a[nbt={Inventory:[{tag:{ExpBook:"Herbal"}}]}] vsHerbalTel 1
 clear @a[nbt={Inventory:[{tag:{ExpBook:"Herbal"}}]}] enchanted_book{ExpBook:"Herbal"} 1
 
-scoreboard players set #ConstDummy vsDummy 3
+scoreboard players set #ConstDummy vsDummy 4
 scoreboard players operation @a[scores={vsDmgDlt=10..}] vsDmgDlt /= #ConstDummy vsDummy
 execute as @a[scores={vsDmgDlt=10..}] run scoreboard players operation @s vsBattleXp += @s vsDmgDlt
 scoreboard players set @a[scores={vsDmgDlt=10..}] vsBattleTel 1
